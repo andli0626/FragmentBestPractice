@@ -13,7 +13,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
 
 	private int resourceId;
 
-	public NewsAdapter(Context context, int textViewResourceId, List<News> objects) {
+	public NewsAdapter(Context context, int textViewResourceId,List<News> objects) {
 		super(context, textViewResourceId, objects);
 		resourceId = textViewResourceId;
 	}
